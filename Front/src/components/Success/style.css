@@ -1,0 +1,25 @@
+@keyframes showSuccess{
+    0%{
+        bottom: 0;
+        opacity: 0%;
+    }
+    100%{
+        bottom: 4rem;
+        opacity: 100%;
+    }
+}
+.success{
+    background-color: #3cff00;
+    border-radius: 1rem;
+    position: absolute;
+    animation: showSuccess 0.5s linear both;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.success span{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000;
+}

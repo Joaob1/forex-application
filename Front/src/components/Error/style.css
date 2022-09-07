@@ -1,0 +1,25 @@
+@keyframes showError{
+    0%{
+        bottom: 0;
+        opacity: 0%;
+    }
+    100%{
+        bottom: 4rem;
+        opacity: 100%;
+    }
+}
+.error{
+    background-color: #ff0000;
+    border-radius: 1rem;
+    position: absolute;
+    animation: showError 0.5s linear both;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error span{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #ccd1d8;
+}
